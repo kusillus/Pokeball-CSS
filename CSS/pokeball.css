@@ -1,55 +1,55 @@
 body{
-	background: black;
-	color: white;
-	font-family:'Cabin', sans-serif;
+	background: #000;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px;
 }
 #pokeball{
-  width: 10em;
-  height: 10em;
-  background-color: white;
+  width: 10rem;
+  height: 10rem;
+  background-color: #fff;
   border-radius: 50%;
-  overflow: hidden;
-}
+ }
 #pokeball::before{
-  content:'';
-  background-color:red;
-  border-radius: 5em 5em 0 0;
-  width: 10em;
-  height: 5em;
+  content: '';
+  background-color: #FF1C1C;
+  border-radius: 5rem 5rem 0 0;
+  width: 10rem;
+  height: 5rem;
   position: absolute;
 }
-#pokeball .details{
-  width: 10em;
-  height: .5em;
+.details{
+  width: 10rem;
+  height: 0.5rem;
   background-color: #333;
   position: relative;
-  top: 4.8em;
+  top: 4.8rem;
 }
-#pokeball .details::after {
+.details::after {
     content: '';
-    width: 1.8em;
-    height: 1.8em;
+    width: 1.8rem;
+    height: 1.8rem;
     border-radius: 50%;
     background-color: #fff;
     position: absolute;
-    top: -0.5em;
-    left: 4.1em;
+    top: -0.5rem;
+    left: 4.1rem;
 }
-#pokeball .details::before {
-  content: '';
-    width: 3em;
-    height: 3em;
+.details::before {
+    content: '';
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     background-color: #333;
     position: absolute;
-    top: -1.1em;
-    left: 3.5em;
+    top: -1.1rem;
+    left: 3.5rem;
 }
-.centrar{
-	width: 10em;
-	height: 10em;
-	margin: 3% auto 0px auto;
+.center{
+  	width: 10rem;
+  	height: 10rem;
+  	margin: 3% auto 0 auto;
 }
 h2{
-	text-align: center;
+    text-align: center;
 }
