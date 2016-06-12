@@ -1,2 +1,2 @@
-# pokeball-CSS
-En este tutorial aprenderemos a crear una pokebola facil y rapido usando solo CSS
+# Pokeball-CSS
+Aprenderemos a crear un pokeball utilizando HTML y CSS
